@@ -15,4 +15,9 @@ fun main() {
     val aoc3SolutionPart2 = AoC3.solutionPart2()
     println("aoc 3 solution Part 1 = ${aoc3SolutionPart1}")
     println("aoc 3 solution Part 2 = ${aoc3SolutionPart2}")
+
+    val aoc4SolutionPart1 = AoC4.solutionPart1()
+    val aoc4SolutionPart2 = AoC4.solutionPart2()
+    println("aoc 4 solution Part 1 = ${aoc4SolutionPart1}")
+    println("aoc 4 solution Part 2 = ${aoc4SolutionPart2}")
 }
