@@ -74,7 +74,7 @@ class AoC7 {
                hasValidCombos(nums, ops, res)
            }
            return validData.sumOf {
-               val (res, nums) = it
+               val (res, _) = it
                res
            }
         }
@@ -91,7 +91,7 @@ class AoC7 {
                 val baseOp: Op = Long::plus
                 val opToAdd: Op = Long::times
                 val basePattern = List(opCount) { baseOp }
-                var allOps = mutableListOf<List<Op>>()
+                val allOps = mutableListOf<List<Op>>()
                 val opsTmp = generateOperatorCombos(opCount, basePattern, opToAdd)
                 for (newBasePattern in opsTmp) {
                     val newOpToAdd: Op = ::concatLong
