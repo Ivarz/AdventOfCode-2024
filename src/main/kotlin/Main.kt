@@ -31,7 +31,6 @@ fun main() {
 //    println("aoc 6 solution Part 1 = ${aoc6SolutionPart1}")
 //    println("aoc 6 solution Part 2 = ${aoc6SolutionPart2}")
 
-//    println("Hello World!")
     val aoc7SolutionPart1 = AoC7.solutionPart1()
     val aoc7SolutionPart2 = AoC7.solutionPart2()
     println("aoc 7 solution Part 1 = ${aoc7SolutionPart1}")
