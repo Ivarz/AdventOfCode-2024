@@ -41,8 +41,13 @@ fun main() {
 //    println("aoc 8 solution Part 1 = ${aoc8SolutionPart1}")
 //    println("aoc 8 solution Part 2 = ${aoc8SolutionPart2}")
 
-    val aoc9SolutionPart1 = AoC9.solutionPart1()
-    val aoc9SolutionPart2 = AoC9.solutionPart2()
-    println("aoc 9 solution Part 1 = ${aoc9SolutionPart1}")
-    println("aoc 9 solution Part 2 = ${aoc9SolutionPart2}")
+//    val aoc9SolutionPart1 = AoC9.solutionPart1()
+//    val aoc9SolutionPart2 = AoC9.solutionPart2()
+//    println("aoc 9 solution Part 1 = ${aoc9SolutionPart1}")
+//    println("aoc 9 solution Part 2 = ${aoc9SolutionPart2}")
+
+    val aoc10SolutionPart1 = AoC10.solutionPart1()
+    val aoc10SolutionPart2 = AoC10.solutionPart2()
+    println("aoc 10 solution Part 1 = ${aoc10SolutionPart1}")
+    println("aoc 10 solution Part 2 = ${aoc10SolutionPart2}")
 }
